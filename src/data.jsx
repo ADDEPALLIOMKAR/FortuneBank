@@ -9,6 +9,7 @@ const DATA = [
     isAdmin: true,
     transactions: []
   },
+  
   {
     email: "jeff@gmail.com",
     password: "abc123",
