@@ -4,6 +4,8 @@ import { Dashboard } from './Dashboard';
 import { LoginPage } from './LoginPage';
 import { ClientDashboard } from './ClientDashboard';
 
+
+
 export const Authenticate = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [notif, setNotif] = useState({message: '', style: ''});
