@@ -14,6 +14,7 @@ export const MainClientContent = props => {
       </div>
     });
 
+    
     return (
       <section id="main-content">
         <h1 className="main">My Account</h1>
