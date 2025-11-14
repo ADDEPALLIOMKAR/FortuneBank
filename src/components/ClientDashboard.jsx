@@ -21,7 +21,7 @@ export const ClientDashboard = (props) => {
       
       return (
         <main>
-          <Sidebar changePage={changePageHandler} page={page} user={client} logoutHandler={props.logout} />
+          <Sidebar changePage = {changePageHandler} page={page} user={client} logoutHandler={props.logout} />
           <MainClientContent user={client} />
         </main>
       )
