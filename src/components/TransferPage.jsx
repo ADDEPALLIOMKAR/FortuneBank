@@ -22,7 +22,7 @@ export const TransferPage = (props) => {
             }
         })
 
-        const newUsers = users.filter((user, index) => {
+        const newUsers  = users.filter((user, index) => {
             return user.number !== accountNumber;
         });
 
